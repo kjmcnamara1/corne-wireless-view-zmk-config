@@ -45,10 +45,10 @@
         layer_numpad {
             display-name = "Num";
             bindings = <
-&trans  &kp F12  &kp F11  &kp F10  &kp F9  &trans    &trans  &kp N7  &kp N8   &kp N9  &trans  &trans
-&trans  &kp F8   &kp F7   &kp F6   &kp F5  &trans    &trans  &kp N4  &kp N5   &kp N6  &trans  &trans
-&trans  &kp F4   &kp F3   &kp F2   &kp F1  &trans    &trans  &kp N1  &kp N2   &kp N3  &trans  &trans
-                          &trans   &trans  &trans    &trans  &kp N0  &kp DOT
+&kp C_BRI_UP    &kp F12  &kp F11  &kp F10  &kp F9  &kp C_VOL_UP    &trans  &kp N7  &kp N8   &kp N9  &trans  &trans
+&kp C_BRI_AUTO  &kp F8   &kp F7   &kp F6   &kp F5  &kp K_MUTE      &trans  &kp N4  &kp N5   &kp N6  &trans  &trans
+&kp C_BRI_DN    &kp F4   &kp F3   &kp F2   &kp F1  &kp C_VOL_DN    &trans  &kp N1  &kp N2   &kp N3  &trans  &trans
+                                  &trans   &trans  &trans          &trans  &kp N0  &kp DOT
             >;
         };
 
@@ -72,10 +72,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&bt BT_CLR_ALL  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6      &kp N7        &kp N8        &kp N9  &kp N0  &kp BSPC
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &trans
+&kp LSHFT       &trans        &trans        &trans        &trans        &trans          &trans      &trans        &trans        &trans  &trans  &trans
+                                            &kp LGUI      &trans        &kp SPACE       &kp RET     &trans        &kp RALT
             >;
         };
 
