@@ -52,7 +52,7 @@
             bindings = <
 &kp TAB           &kp Q  &kp W  &kp E          &kp R          &kp T          &kp Y        &kp U          &kp I          &kp O    &kp P     &kp BSPC
 &mt LCTRL ESCAPE  &kp A  &kp S  &kp D          &kp F          &kp G          &kp H        &kp J          &kp K          &kp L    &kp SEMI  &mt RCTRL RET
-&sys_td           &kp Z  &kp X  &kp C          &kp V          &kp B          &kp N        &kp M          &kp COMMA      &kp DOT  &kp FSLH  &mt RSHIFT APOS
+&mt LSHIFT CAPS   &kp Z  &kp X  &kp C          &kp V          &kp B          &kp N        &kp M          &kp COMMA      &kp DOT  &kp FSLH  &mt RSHIFT APOS
                                 &mt LGUI LPAR  &mt LALT LBKT  &lt 1 MINUS    &lt 2 SPACE  &mt RALT RBKT  &mt RGUI RPAR
             >;
         };
@@ -63,7 +63,7 @@
 &kp C_BRI_UP  &kp F12  &kp F11  &kp F10  &kp F9  &kp C_VOL_UP    &kp PLUS   &kp N7  &kp N8   &kp N9  &kp STAR   &trans
 &kp C_BRI_DN  &kp F8   &kp F7   &kp F6   &kp F5  &kp C_VOL_DN    &kp COMMA  &kp N4  &kp N5   &kp N6  &kp UNDER  &trans
 &to 1         &kp F4   &kp F3   &kp F2   &kp F1  &kp K_MUTE      &kp MINUS  &kp N1  &kp N2   &kp N3  &kp FSLH   &trans
-                                &trans   &trans  &none           &trans     &kp N0  &kp DOT
+                                &trans   &trans  &trans          &trans     &kp N0  &kp DOT
             >;
         };
 
@@ -88,8 +88,8 @@
             bindings = <
 &bt BT_CLR_ALL  &none         &none         &none         &none         &none           &none  &none  &none  &none  &none  &none
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none  &none  &none  &kp KP_NUMLOCK
-&tog 3          &none         &none         &none         &none         &none           &none  &none  &none  &none  &none  &kp SCROLLLOCK
-                                            &none         &none         &out OUT_TOG    &none  &none  &none
+&out OUT_TOG    &none         &none         &none         &none         &none           &none  &none  &none  &none  &none  &kp SCROLLLOCK
+                                            &none         &none         &none           &none  &none  &none
             >;
         };
 
