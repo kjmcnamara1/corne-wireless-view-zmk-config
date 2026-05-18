@@ -25,7 +25,7 @@
 
         combo_bksp {
             bindings = <&kp BACKSPACE>;
-            key-positions = <28 29>;
+            key-positions = <0 1>;
         };
     };
 
